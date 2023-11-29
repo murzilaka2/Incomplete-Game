@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\car.png" />
+    <None Remove="Images\car2.png" />
+    <None Remove="Images\car3.png" />
+    <None Remove="Images\car4.png" />
+    <None Remove="Images\car5.png" />
+    <None Remove="Images\carPowerMode.png" />
+    <None Remove="Images\playerCar.png" />
+    <None Remove="Images\playerCarPower.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\car.png" />
+    <Resource Include="Images\car2.png" />
+    <Resource Include="Images\car3.png" />
+    <Resource Include="Images\car4.png" />
+    <Resource Include="Images\car5.png" />
+    <Resource Include="Images\carPowerMode.png" />
+    <Resource Include="Images\playerCar.png" />
+    <Resource Include="Images\playerCarPower.png" />
+  </ItemGroup>
+
+</Project>
